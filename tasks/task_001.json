@@ -1,0 +1,38 @@
+{
+  "task_id": "task_001",
+  "domain": "retail_sales",
+  "company": "NorthWave Retail",
+  "description": "Q1 2024 sales transaction data — clean and summarize for regional sales meeting",
+  "messiness_profile": [
+    "mixed_date_formats",
+    "duplicate_order_ids",
+    "null_revenue_values"
+  ],
+  "messiness_details": {
+    "mixed_date_formats": "Three formats present: YYYY-MM-DD, MM/DD/YYYY, DD-Mon-YYYY. Cycled across rows.",
+    "duplicate_order_ids": "5 order IDs appear twice (ORD-010, ORD-022, ORD-035, ORD-048, ORD-061). Keep first occurrence.",
+    "null_revenue_values": "8 rows have blank revenue but valid quantity and unit_price. Fill with quantity * unit_price."
+  },
+  "prompts": {
+    "zero_shot": "You are a data analyst at NorthWave Retail. You have been given Q1 2024 sales transaction data in the attached CSV file. Clean the data and produce a summary report as an Excel file.",
+    "structured": "You are a data analyst at NorthWave Retail preparing for the Q1 2024 regional sales meeting.\n\nThe attached CSV file (task_001_raw.csv) contains raw sales transaction data that needs to be cleaned and summarized before the meeting.\n\n## Your deliverable\n\nAn Excel file (.xlsx) with three sheets:\n\n**Sheet 1 — Raw Data**\nCopy the original data here, unchanged.\n\n**Sheet 2 — Cleaned Data**\nFix the following issues in the data:\n- Standardize all dates to YYYY-MM-DD format\n- Remove duplicate order entries (same order_id appearing more than once — keep the first occurrence)\n- Fill any missing revenue values using the formula: revenue = quantity × unit_price\n\n**Sheet 3 — Summary**\nUsing formulas that reference the Cleaned Data sheet, compute:\n- Total number of orders in the raw data\n- Total number of orders after cleaning\n- Number of duplicate orders removed\n- Number of revenue nulls filled\n- Total revenue\n- Average order value\n- Total units sold\n- Revenue by region (North, South, East, West)\n- Revenue by product category (Electronics, Clothing, Home & Garden, Sports)\n- Order count by region\n\nAll figures in the Summary sheet must use Excel formulas referencing the Cleaned Data sheet — no hardcoded values."
+  },
+  "reference_files": ["task_001_raw.csv"],
+  "gold_file": "task_001_gold.xlsx",
+  "required_sheets": ["Raw Data", "Cleaned Data", "Summary"],
+  "raw_row_count": 75,
+  "cleaned_row_count": 70,
+  "duplicates_removed": 5,
+  "nulls_filled": 8,
+  "programmatic_checks": {
+    "required_sheets": ["Raw Data", "Cleaned Data", "Summary"],
+    "raw_data_row_count": 75,
+    "cleaned_data_row_count": 70,
+    "formula_errors_allowed": 0,
+    "revenue_col_index": 9,
+    "revenue_should_be_formula": true,
+    "summary_should_reference_cleaned": true
+  },
+  "difficulty": "easy",
+  "estimated_completion_minutes": 5
+}

@@ -1,0 +1,76 @@
+order_id,order_date,customer_name,region,product_category,product_name,quantity,unit_price,revenue
+ORD-001,2024-03-04,Henry Davis,South,Electronics,Wireless Headphones,9,89.99,809.91
+ORD-002,03/04/2024,Sam White,North,Sports,Water Bottle,3,19.99,59.97
+ORD-003,03-Jan-2024,Quinn Clark,North,Clothing,Running Shorts,8,34.99,279.92
+ORD-004,2024-03-07,Henry Harris,East,Sports,Water Bottle,14,19.99,279.86
+ORD-005,01/25/2024,Karen Wilson,South,Clothing,Fleece Jacket,14,74.99,
+ORD-006,25-Jan-2024,Carol Jackson,North,Home & Garden,Garden Hose,4,44.99,179.96
+ORD-007,2024-02-28,Isabel Johnson,West,Home & Garden,Throw Pillow Set,20,39.99,799.8
+ORD-008,03/04/2024,Rachel Taylor,East,Home & Garden,Scented Candles,3,24.99,74.97
+ORD-009,07-Mar-2024,Henry Taylor,North,Electronics,Portable Charger,2,29.99,59.98
+ORD-010,2024-01-28,Isabel Harris,East,Electronics,Bluetooth Speaker,13,59.99,779.87
+ORD-010,01/28/2024,Isabel Harris,East,Electronics,Bluetooth Speaker,13,59.99,779.87
+ORD-011,12-Jan-2024,Isabel Williams,South,Home & Garden,Throw Pillow Set,7,39.99,279.93
+ORD-012,2024-03-24,Olivia Jackson,East,Clothing,Waterproof Boots,6,119.99,719.94
+ORD-013,03/23/2024,Karen Johnson,South,Sports,Water Bottle,8,19.99,159.92
+ORD-014,26-Jan-2024,Isabel Williams,South,Home & Garden,Garden Hose,13,44.99,
+ORD-015,2024-03-23,Peter Jackson,West,Home & Garden,Garden Hose,7,44.99,314.93
+ORD-016,01/09/2024,Rachel Moore,East,Electronics,Smart Watch,8,199.99,1599.92
+ORD-017,19-Mar-2024,Maya Thomas,South,Home & Garden,Wall Clock,19,34.99,664.81
+ORD-018,2024-01-17,Bob Brown,South,Sports,Yoga Mat,3,49.99,149.97
+ORD-019,03/06/2024,Carol Jackson,West,Home & Garden,Wall Clock,20,34.99,699.8
+ORD-020,15-Mar-2024,Rachel Smith,North,Sports,Resistance Bands,9,24.99,224.91
+ORD-021,2024-03-18,David Taylor,West,Clothing,Casual T-Shirt,11,19.99,219.89
+ORD-022,01/15/2024,Quinn Garcia,North,Electronics,Wireless Headphones,9,89.99,809.91
+ORD-022,15-Jan-2024,Quinn Garcia,North,Electronics,Wireless Headphones,9,89.99,809.91
+ORD-023,2024-03-10,Grace Jones,East,Sports,Resistance Bands,20,24.99,499.8
+ORD-024,01/18/2024,Tara Anderson,West,Sports,Resistance Bands,1,24.99,24.99
+ORD-025,04-Jan-2024,Henry Johnson,South,Home & Garden,Throw Pillow Set,10,39.99,
+ORD-026,2024-03-03,Carol Moore,South,Electronics,Portable Charger,16,29.99,479.84
+ORD-027,01/22/2024,Frank Wilson,West,Sports,Yoga Mat,18,49.99,899.82
+ORD-028,18-Jan-2024,Maya Thomas,West,Clothing,Running Shorts,10,34.99,349.9
+ORD-029,2024-03-15,Henry Williams,East,Electronics,Bluetooth Speaker,8,59.99,479.92
+ORD-030,01/19/2024,Sam Davis,North,Sports,Water Bottle,8,19.99,159.92
+ORD-031,23-Jan-2024,Carol Johnson,East,Electronics,USB-C Hub,8,34.99,279.92
+ORD-032,2024-01-17,Peter Miller,South,Clothing,Waterproof Boots,9,119.99,1079.91
+ORD-033,03/19/2024,Henry Martin,West,Sports,Foam Roller,16,34.99,
+ORD-034,04-Jan-2024,Liam White,West,Electronics,Bluetooth Speaker,14,59.99,839.86
+ORD-035,2024-02-28,Bob Jackson,East,Electronics,USB-C Hub,4,34.99,139.96
+ORD-035,02/28/2024,Bob Jackson,East,Electronics,USB-C Hub,4,34.99,139.96
+ORD-036,08-Jan-2024,Rachel Harris,South,Clothing,Running Shorts,7,34.99,244.93
+ORD-037,2024-02-06,Henry Williams,West,Clothing,Casual T-Shirt,15,19.99,299.85
+ORD-038,03/04/2024,Alice Williams,South,Electronics,USB-C Hub,18,34.99,629.82
+ORD-039,14-Jan-2024,Grace Jackson,North,Sports,Yoga Mat,16,49.99,799.84
+ORD-040,2024-01-13,Isabel Harris,East,Electronics,Wireless Headphones,13,89.99,1169.87
+ORD-041,02/23/2024,Emma Miller,East,Sports,Water Bottle,16,19.99,319.84
+ORD-042,02-Jan-2024,Bob Anderson,North,Sports,Foam Roller,18,34.99,629.82
+ORD-043,2024-01-19,Quinn Garcia,North,Sports,Yoga Mat,17,49.99,849.83
+ORD-044,03/03/2024,Tara Williams,South,Clothing,Fleece Jacket,3,74.99,
+ORD-045,04-Feb-2024,Sam Clark,North,Sports,Foam Roller,8,34.99,279.92
+ORD-046,2024-03-03,Sam Thompson,East,Home & Garden,Wall Clock,19,34.99,664.81
+ORD-047,02/07/2024,Isabel Jackson,South,Home & Garden,Garden Hose,8,44.99,359.92
+ORD-048,21-Mar-2024,Karen Williams,North,Clothing,Denim Jeans,15,59.99,899.85
+ORD-048,2024-03-21,Karen Williams,North,Clothing,Denim Jeans,15,59.99,899.85
+ORD-049,02/20/2024,Carol Moore,South,Sports,Foam Roller,4,34.99,139.96
+ORD-050,09-Mar-2024,Carol Davis,East,Electronics,Smart Watch,12,199.99,2399.88
+ORD-051,2024-02-06,James Clark,North,Home & Garden,Plant Pot,18,19.99,359.82
+ORD-052,03/27/2024,David Jones,East,Sports,Water Bottle,10,19.99,
+ORD-053,04-Jan-2024,Isabel Taylor,South,Sports,Water Bottle,5,19.99,99.95
+ORD-054,2024-03-11,Quinn Martin,East,Clothing,Running Shorts,9,34.99,314.91
+ORD-055,01/03/2024,Bob Smith,East,Home & Garden,Wall Clock,9,34.99,314.91
+ORD-056,21-Jan-2024,Olivia Moore,West,Clothing,Casual T-Shirt,6,19.99,119.94
+ORD-057,2024-03-01,Emma Moore,North,Electronics,Bluetooth Speaker,3,59.99,179.97
+ORD-058,02/19/2024,Noah Jones,North,Sports,Water Bottle,5,19.99,99.95
+ORD-059,12-Feb-2024,Grace Davis,North,Electronics,USB-C Hub,12,34.99,419.88
+ORD-060,2024-02-25,Tara Jones,South,Sports,Water Bottle,14,19.99,279.86
+ORD-061,01/26/2024,Alice Garcia,East,Clothing,Fleece Jacket,14,74.99,1049.86
+ORD-061,26-Jan-2024,Alice Garcia,East,Clothing,Fleece Jacket,14,74.99,1049.86
+ORD-062,2024-02-26,Frank Brown,West,Clothing,Waterproof Boots,9,119.99,1079.91
+ORD-063,01/28/2024,Grace Harris,East,Sports,Yoga Mat,8,49.99,
+ORD-064,27-Feb-2024,Alice Miller,West,Clothing,Waterproof Boots,8,119.99,959.92
+ORD-065,2024-02-09,Liam Thompson,West,Electronics,Portable Charger,9,29.99,269.91
+ORD-066,03/27/2024,Alice Brown,East,Sports,Water Bottle,11,19.99,219.89
+ORD-067,19-Jan-2024,David Clark,West,Clothing,Casual T-Shirt,2,19.99,39.98
+ORD-068,2024-02-24,Tara Thompson,North,Home & Garden,Garden Hose,14,44.99,629.86
+ORD-069,02/19/2024,Bob White,North,Clothing,Running Shorts,9,34.99,
+ORD-070,26-Mar-2024,Liam White,North,Sports,Water Bottle,7,19.99,139.93
