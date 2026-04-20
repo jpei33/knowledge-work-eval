@@ -1,5 +1,7 @@
 # data-cleaning-eval
 
+![CI](https://github.com/jpei33/knowledge-work-eval/actions/workflows/ci.yml/badge.svg)
+
 A knowledge work eval measuring whether frontier models can transform messy tabular data into a clean, well-structured `.xlsx` deliverable with accurate summary statistics.
 
 Inspired by [GDPval](https://arxiv.org/abs/2510.04374) methodology. Demonstrates **hybrid scoring** — programmatic structural checks anchored to an LLM-as-judge blinded pairwise comparison — applied to a domain-agnostic spreadsheet task. Designed as a portable template for knowledge work evals where no single oracle suffices.
